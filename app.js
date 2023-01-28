@@ -6,4 +6,3 @@ const movies = [
     {title: 'Solo en Whatsapp', duration: 223, categories: ['comedia', 'thriller']},
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
-asdas
