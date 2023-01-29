@@ -124,11 +124,19 @@ console.log(rolldice(7))
 
 // 6
 
-function swap(array, indiceUno, indiceDos) {
+function swap(array, i1, i2) {
     let newArray = [];
-    for (const name of array) {
-        
-    }
+    
+   for (let i = 0; i < array.length; i++) {
+        if (array[i] === array[i1]) {
+            newArray.push(array[i2])
+        } else if (array[i] === array[i2]) {
+            newArray.push(array[i1])
+        }
+        else {
+            newArray.push(array[i])
+        }  
+   }
     return newArray;
 }
-console.log(swap(['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'], 0, 1))
+console.log(swap(['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'], 1, 2))
