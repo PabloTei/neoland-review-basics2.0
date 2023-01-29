@@ -121,3 +121,10 @@ function rolldice(caras) {
     return Math.floor(Math.random() * caras);
 }
 console.log(rolldice(7))
+
+// 6
+
+function swap(array, indiceUno, indiceDos) {
+
+}
+console.log(swap(['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'], 0, 1))
