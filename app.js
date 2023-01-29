@@ -6,3 +6,14 @@ const movies = [
     {title: 'Solo en Whatsapp', duration: 223, categories: ['comedia', 'thriller']},
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
+
+let newArray = [];
+for (const movie of movies) {
+    const arrayCategories = movie.categories;
+    for (const categorie of arrayCategories) {
+        if (!newArray.includes(categorie)) {
+            newArray.push(categorie)
+        }
+    }
+}
+console.log(newArray);
