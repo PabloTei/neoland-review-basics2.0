@@ -105,3 +105,15 @@ for (const user of users1) {
 console.log(count);
 
 // 4
+
+function findArrayIndex(array, text) {
+    if (array.includes(text)) {
+        return `La palabra ${text}, se encuentra en la posición ${array.indexOf(text)+1} de la lista: ${array}.`
+    } else {
+        return `La palabra ${text}, no se encuentra en la lista ${array}.`;
+    }   
+}
+console.log(findArrayIndex(['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'], "Ajolote"));
+
+// 5
+
