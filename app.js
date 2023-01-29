@@ -117,3 +117,7 @@ console.log(findArrayIndex(['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'], "Aj
 
 // 5
 
+function rolldice(caras) {
+    return Math.floor(Math.random() * caras);
+}
+console.log(rolldice(7))
