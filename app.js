@@ -125,6 +125,10 @@ console.log(rolldice(7))
 // 6
 
 function swap(array, indiceUno, indiceDos) {
-
+    let newArray = [];
+    for (const name of array) {
+        
+    }
+    return newArray;
 }
 console.log(swap(['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'], 0, 1))
