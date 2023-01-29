@@ -139,4 +139,4 @@ function swap(array, i1, i2) {
    }
     return newArray;
 }
-console.log(swap(['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'], 1, 2))
+console.log(swap(['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'], 2, 3))
